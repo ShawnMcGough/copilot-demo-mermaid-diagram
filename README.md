@@ -45,22 +45,17 @@ Once you have chosen the type of Mermaid diagram you want to create, you can sta
 
 For example, if you want to create a gitGraph, you can use the following prompt: 
 
->```
->Help me create a new mermaid diagram gitGraph based on the criteria 
-I send you in the upcoming prompts. 
-Please let me know how I can 
-improve my prompt as I type in the criteria 
->```
+```
+Help me create a new mermaid diagram gitGraph based on the criteria I send you in the upcoming prompts. 
+Please let me know how I can improve my prompt as I type in the criteria 
+```
 
 Prompt 2 would be the criteria for the gitGraph diagram.
 
 ```
-In the upcoming sprint, we will have two feature branches 
-"add login" and "create login button". 
-We will also have a bugfix branch 
-"fix user mapping". 
-These branches will merge into main one week after each other 
-and start at the same time.
+In the upcoming sprint, we will have two feature branches "add login" and "create login button". 
+We will also have a bugfix branch "fix user mapping". 
+These branches will merge into main one week after each other and start at the same time.
 ```
 
 Prompt 3 would update the commits gitGraph diagram.
