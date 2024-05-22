@@ -87,37 +87,3 @@ classDiagram
 
 ## gitGraph
 
-```mermaid
-gitGraph:
-options
-{
-    "nodeSpacing": 150,
-    "nodeRadius": 10
-}
-end
-commit
-branch newbranch1
-checkout newbranch1
-commit
-commit
-checkout master
-commit
-branch newbranch2
-checkout newbranch2
-commit
-commit
-checkout master
-commit
-branch newbranch3
-checkout newbranch3
-commit
-commit
-checkout main
-tag "May 31th: first iteration"
-commit
-tag "June 7th: second iteration"
-commit
-tag "June 14th: third iteration"
-commit
-tag "June 21th: fourth iteration"
-```
