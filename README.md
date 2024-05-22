@@ -41,9 +41,11 @@ Bonus: ask Copilot to format the document in a way that is easy to read.
 
 ### Step 2: Create a Diagram
 
-Once you have chosen the type of Mermaid diagram you want to create, you can start writing the code.
+Once you have chosen the type of Mermaid diagram you want to create, you can start writing the code. 
 
-For example, if you want to create a gitGraph, you can use the following prompt: 
+#### Creating a gitGraph
+
+For example, if you want to create a gitGraph, you can use the following prompts:
 
 ```
 Help me create a new mermaid diagram gitGraph based on the criteria I send you in the upcoming prompts. 
@@ -66,8 +68,9 @@ Example: 'commit id: "May 30th"'.
 it should follow that pattern for the other commits.
 ```
 
+#### Creating an Architecture Diagram
 
+If you want to create an architecture diagram, you can use the following prompts:
 
-
-
-
+```
+```
