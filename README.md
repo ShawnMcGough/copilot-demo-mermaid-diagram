@@ -72,37 +72,37 @@ it should follow that pattern for the other commits.
 
 If you want to create an sequence diagram, you can use the following prompts:
 
-**Starting a new diagram**
+Starting a new diagram
 
 ```
 lets create a new sequence diagram
 ```
 
-**Telling Copilot how you want the prompts to be sent back to you.**
+Telling Copilot how you want the prompts to be sent back to you.
 
 ```
 when I type in my criteria, let me know how I can improve on my prompt.
 ```
 
-**Sending the criteria for the architecture diagram**
+Sending the criteria for the architecture diagram
 
 ```
 The user will login to the front-end site. It will go to the authentication service which will verify the users email and password.
 ```
 
-**Making it more complex.**
+Adding a database.
 
 ```
-How to show an integration a database into my application for user profile management?
+How to show a database into my application for user profile management?
 ```
 
-**Error Handling**
+Error Handling.
 
 ```
 can you show error handling in this sequence diagram? I want it to show an error if the user profile does not come back
 ```
 
-**Copilot Collaboration**
+Copilot Collaboration
 
 ```
 Any use cases that could be added to this?
