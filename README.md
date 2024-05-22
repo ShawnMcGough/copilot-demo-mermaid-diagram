@@ -68,9 +68,42 @@ Example: 'commit id: "May 30th"'.
 it should follow that pattern for the other commits.
 ```
 
-#### Creating an Architecture Diagram
+#### Creating an Sequence Diagram
 
-If you want to create an architecture diagram, you can use the following prompts:
+If you want to create an sequence diagram, you can use the following prompts:
+
+**Starting a new diagram**
 
 ```
+lets create a new sequence diagram
+```
+
+**Telling Copilot how you want the prompts to be sent back to you.**
+
+```
+when I type in my criteria, let me know how I can improve on my prompt.
+```
+
+**Sending the criteria for the architecture diagram**
+
+```
+The user will login to the front-end site. It will go to the authentication service which will verify the users email and password.
+```
+
+**Making it more complex.**
+
+```
+How to show an integration a database into my application for user profile management?
+```
+
+**Error Handling**
+
+```
+can you show error handling in this sequence diagram? I want it to show an error if the user profile does not come back
+```
+
+**Copilot Collaboration**
+
+```
+Any use cases that could be added to this?
 ```
