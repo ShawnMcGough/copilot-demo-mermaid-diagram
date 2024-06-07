@@ -61,7 +61,7 @@ Please let me know how I can improve my prompt as I type in the criteria.
 add the criteria for the gitGraph diagram.
 
 ```
-In the upcoming sprint, we will have two feature branches "add login" and "create login button". 
+In the upcoming sprint, we will have two feature branches "add login" and "create login button".
 We will also have a bugfix branch "fix user mapping". 
 These branches will merge into main one week after each other and start at the same time.
 ```
