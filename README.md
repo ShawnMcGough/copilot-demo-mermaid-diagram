@@ -47,72 +47,44 @@ Show me the different types of mermaid diagrams. Use a car theme to help explain
 
 Once you have chosen the type of Mermaid diagram you want to create, you can begin to write the Markdown code. 
 
-### Creating a gitGraph
+### Creating a classDiagram
 
-For example, if you want to create a gitGraph, you can use the following prompts:
+Lets explore creating a classDiagram.
 
 *Prompt 1*
 ```
-Help me create a new mermaid diagram gitGraph based on the criteria I send you in the upcoming prompts. 
+Help me create a new classDiagram based on the criteria I send you in the upcoming prompts. 
 Please let me know how I can improve my prompt as I type in the criteria.
 ```
 
 *Prompt 2* -
-add the criteria for the gitGraph diagram.
+add the criteria for the classDiagram.
 
 ```
-In the upcoming sprint, we will have two feature branches "add login" and "create login button".
-We will also have a bugfix branch "fix user mapping". 
-These branches will merge into main one week after each other and start at the same time.
+classDiagram
+    class User {
+        -String username
+        -String password
+        +login()
+        +logout()
+    }
+    class Admin {
+        -String adminID
+        +manageUsers()
+    }
+    class Post {
+    }
+    User <|-- Admin : Inheritance
+    User "1" -- "0..*" Post : posts
+    Admin "1" -- "0..*" User : manages
 ```
 
-*Prompt 3* - update the commits gitGraph diagram.
+*Prompt 3* - Add properties to the Post class 
 
 ```
-Can we add in commit ids to the gitGraph diagram to show the dates? 
-Example: 'commit id: "May 30th"'. 
-it should follow that pattern for the other commits.
+Add some typical properties to the Post class.
 ```
 
-### Creating an Sequence Diagram
-
-If you want to create an sequence diagram, you can use the following prompts:
-
-Starting a new diagram
-
-```
-lets create a new sequence diagram
-```
-
-Telling Copilot how you want the prompts to be sent back to you.
-
-```
-when I type in my criteria, let me know how I can improve on my prompt.
-```
-
-Sending the criteria for the architecture diagram
-
-```
-The user will login to the front-end site. It will go to the authentication service which will verify the users email and password.
-```
-
-Adding a database.
-
-```
-How to show a database into my application for user profile management?
-```
-
-Error Handling.
-
-```
-can you show error handling in this sequence diagram? I want it to show an error if the user profile does not come back
-```
-
-Copilot Collaboration
-
-```
-Any use cases that could be added to this?
-```
 ## Conclusion
 
 GitHub Copilot can be used to generate diagrams via the Markdown programming language!
